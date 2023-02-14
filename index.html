@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA CSS</title>
+    <style>
+        .principal
+        {
+            background-color: black;
+            color: white;
+            width: 700px;
+            height: 400px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: deeppink;
+            border-radius: 50px;
+            position: absolute;
+            left: 80px;
+            display: flex;
+              flex-direction: row; /* se tiver row o justify fica horinzontal e se tiver colon fica na vertical*/
+              justify-content: space-around;
+              justify-items: center;
+              align-items: center;
+              align-content: center;
+
+            
+
+        }
+        .roxa
+        {
+            width: 200px; /*largura*/
+            height: 200px;
+            background-color: purple;  
+            font-size: 17px;
+
+            /*os codigos abaixo
+             servem para alinhar
+              itens dentro de uma div
+              */
+              display: flex;
+              flex-direction: row; /* se tiver row o justify fica horinzontal e se tiver colon fica na vertical*/
+              justify-content: center;
+              justify-items: center;
+              align-items: center;
+              align-content: center;
+              border-radius: 100px;
+
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="principal">
+        <div class="roxa">
+            Bolota 1
+
+        </div>
+
+        <div class="roxa">
+           Bolota 2
+
+        </div>
+    </div>
+</body>
+</html>
